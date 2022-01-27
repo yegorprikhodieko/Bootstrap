@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- BootsTrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      
+  <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row d-none d-sm-block">
+                <div class="col-sm-12 col-md-8 col-xxl-4">
+                    <div class="input-group mb-3">
+                        <button class="btn btn-outline-secondary" type="Delete_text" id="button-addon1" onclick="ClearField()"><img src="img/Ico_Cross.svg" alt="Ico_Cross" class="Ico_Cross"></button>
+                        <input id="HeaderButton" type="text" class="text-center form-control" placeholder="Search a car" aria-label="Example text with button addon" aria-describedby="button-addon1">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon1">Поиск</button>
+                    </div>
+                </div>
+                <div class="text-center col-sm-12 col-xxl-5">
+                    <div class="row gy-2">
+                                            
+                        
+                        <div class="text-center col-6 col-sm-3">
+                            <div class="btn-group">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Sign Up
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                                  <li><p class="dropdown-item">Don't have an account?</p></li>
+                                  <li><a href="#"><p class="text-center">Sign up here.</p></a></li>
+                                  <li><hr class="dropdown-divider"></li>
+                                  <li><a class="dropdown-item text-center btn knopka" href="#">Log In</a></li>
+                                </ul>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </header>
+    <div class="Body_Cards mb-2">
+        <div class="container">
+            <div class="row gy-2">
+                <div class="col-sm-2 col-xl-3 text-center">
+                    <div class="dropdown">
+                        <select class="form-select " aria-label="Default select example">
+                            <option selected>Buy Last 7 Days</option>
+                            <option value="1">Buy Last 30 Days</option>
+                            <option value="2">Buy This Year</option>
+                            <option value="3">Buy All Time</option>
+                        </select>
+                    </div>
+                </div>        
+                <div class="col-sm-4 col-xl-3 text-center">
+                    <div class="dropdown">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                              Everything
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                              <li><button class="dropdown-item" type="button">Benz</button></li>
+                              <li><button class="dropdown-item" type="button">M3</button></li>
+                              <li><button class="dropdown-item" type="button">M4</button></li>
+                              <li><button class="dropdown-item" type="button">M5</button></li>
+                              <li><button class="dropdown-item" type="button">M6</button></li>
+                            </ul>
+                          </div>
+                    </div>
+                </div>              
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">          
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                 
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                  
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                 
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                  
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                  
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 col-sm-12">
+            <div class="text-center col-12 mt-3">
+              Mersedes
+            </div>
+            <img src="img/мерс.jpg" class="img-fluid rounded mx-auto d-block" alt="">
+            <div class="row">
+              <div class="text-end mt-3  col-6">
+                <a href="#">
+                  Buy the car
+                </a>
+              </div>
+              <div class="col-6">
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="1900 RUB">
+                      Price 
+                    </button>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12 mt-1">
+                    <button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="top" title="142">
+                      Amount
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- JS for BootsTrap-->
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script>
+        function ClearField()
+        {
+            document.getElementById("HeaderButton").value = "";
+        }
+      </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+/*Google Fonts
+    font-family: 'Comforter', cursive; /But
+    font-family: 'Inconsolata', monospace; /line
+    font-family: 'Rubik Beastly', cursive; /shining
+    font-family: 'Sedgwick Ave', cursive; /graphiti
+*/
+/*Main*/
+:root {
+  --main: #d0d3f5;
+  --main1: #49241c;
+  --main2: #57e62c;
+  --main4: #bf2011;
+}
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: black;
+  font-weight: bold;
+}
+a:hover {
+  color: white;
+}
+::selection {
+  color: var(--main4);
+}
+a.knopka {
+  color: white; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: var(--main2); /* фон кнопки */
+  padding: 0.7em 1.5em; /* отступ от текста */
+  outline: none; /* убирать контур в Mozilla */
+}
+
+/*BooysStrap*/
+.dropdown-toggle::after {
+  display: none !important;
+}
+/*Header*/
+header {
+  margin-top: 20px;
+  color: white;
+}
+/*Body*/
+body {
+  color: black;
+  background-color: var(--main);
+  font-family: "Inconsolata", monospace;
+  font-weight: bold;
+}
+.Body_Cards {
+  margin-top: 20px;
+}
+/*Text*/
+.Text_Game {
+  font-family: "Montserrat";
+  color: var(--main2);
+}
+input[type="text"]::-webkit-input-placeholder {
+  color: black;
+  font-family: "Montserrat";
+}
+input[type="text"]::-moz-placeholder {
+  color: black;
+  font-family: "Montserrat";
+}
+input:focus {
+  color: black;
+  font-family: "Montserrat";
+}
+
+/*Images*/
+.Ico_Cross {
+  width: 20px;
+}
